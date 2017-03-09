@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage</title>
+</head>
+<body>
+
+<!-- This is a comment -->
+<p>Leave me a messages.</p>
+<!-- Comments are not displayed in the browser -->
+
+
+<p><a href="file:///C:/Users/neil4/Desktop/web/homepage.html">Check out my homepage. </a></p>
+<p><a href="file:///C:/Users/neil4/Desktop/web/profile.html">Check out my profile. </a></p>
+<p><a href="file:///C:/Users/neil4/Desktop/web/message.html">Leave me messages. </a></p>
+
+
+</body>
+</html>
