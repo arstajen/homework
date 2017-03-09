@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Homepage</title>
+</head>
+<body>
+
+<p style="color:purple;font-family:verdana;">It's a Homepage.</p>
+<hr>
+
+<p><a href="file:///C:/Users/neil4/Desktop/web/homepage.html">Check out my homepage. </a></p>
+<p><a href="file:///C:/Users/neil4/Desktop/web/profile.html">Check out my profile. </a></p>
+<p><a href="file:///C:/Users/neil4/Desktop/web/message.html">Leave me messages. </a></p>
+
+
+
+</body>
+</html>
