@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+
+<p>This example calls a function which performs a calculation, and returns the result:</p>
+
+<input type="number"  id='myNumber1'>
+<input type="number"  id='myNumber2'>
+
+<input type="button" onclick="sum()" value="sum">
+<input type="button" onclick="minus()" value="minus">
+<input type="button" onclick="divide()" value="divide">
+<input type="button" onclick="multiple()" value="multiple">
+<input type="button" onclick="clearBox()"  value="clear">
+<p id="result"></p>
+<script>
+function multiple(p1, p2) {
+    var x = parseInt(document.getElementById("myNumber1").value);
+    var y = parseInt(document.getElementById("myNumber2").value);  	document.getElementById("result").innerHTML = x * y;
+}
+
+
+
+function minus(p1, p2) {
+    var x = parseInt(document.getElementById("myNumber1").value);
+    var y = parseInt(document.getElementById("myNumber2").value);  	document.getElementById("result").innerHTML = x-y;
+}
+
+
+
+function divide(p1, p2) {
+    var x = parseInt(document.getElementById("myNumber1").value);
+    var y = parseInt(document.getElementById("myNumber2").value);  	document.getElementById("result").innerHTML = x/y;
+}
+
+
+
+function sum(p1, p2) {
+    var x = parseInt(document.getElementById("myNumber1").value);
+    var y = parseInt(document.getElementById("myNumber2").value);  	document.getElementById("result").innerHTML = x + y;
+}
+
+function clearBox(p1,p2)
+{
+    document.getElementById('myNumber1','myNumber2').innerHTML = "";
+}
+</script>
+
+
+</body>
+</html>
