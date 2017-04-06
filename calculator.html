@@ -12,11 +12,11 @@
 <input type="button" onclick="sum()" value="sum">
 <input type="button" onclick="minus()" value="minus">
 <input type="button" onclick="divide()" value="divide">
-<input type="button" onclick="multiple()" value="multiple">
-<input type="button" onclick="clearBox()"  value="clear">
+<input type="button" onclick="mul()" value="multiple">
+<input type="button" onclick="cleara()"  value="clear">
 <p id="result"></p>
 <script>
-function multiple(p1, p2) {
+function mul(p1, p2) {
     var x = parseInt(document.getElementById("myNumber1").value);
     var y = parseInt(document.getElementById("myNumber2").value);  	document.getElementById("result").innerHTML = x * y;
 }
@@ -42,9 +42,10 @@ function sum(p1, p2) {
     var y = parseInt(document.getElementById("myNumber2").value);  	document.getElementById("result").innerHTML = x + y;
 }
 
-function clearBox(p1,p2)
+function cleara(p1,p2)
 {
-    document.getElementById('myNumber1','myNumber2').innerHTML = "";
+    var x = parseInt(document.getElementById("myNumber1").value='');
+    var y = parseInt(document.getElementById("myNumber2").value='');  	document.getElementById("result").innerHTML = '';
 }
 </script>
 

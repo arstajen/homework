@@ -14,12 +14,13 @@
 <script>
 function judge() {
     var x = parseInt(document.getElementById("myNumber1").value);
-    if (x < 60)
-    	judge = 'fail';
-    else
-    	judge = 'pass';
 
-    document.getElementById("result").innerHTML = judge;
+    if (x < 60)
+    	 document.getElementById("result").innerHTML =  'fail';
+    
+    else
+    	document.getElementById("result").innerHTML =  'pass';
+
 }
 </script>
 
